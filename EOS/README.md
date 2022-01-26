@@ -1,7 +1,7 @@
 # How to use?
 
 ```
-import OBS_rotate
+from EOS_rotate import OBS_rotate
 EOSROT = OBS_rotate(OriDat="path_to_obs_ori_dat)")
 rotated_stream = EOSROT.rotate_EOS_station(st=unrotated_stream)
 ```
